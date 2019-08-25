@@ -1,0 +1,29 @@
+{
+  "minSdkVersion": 19,
+  "targetSdkVersion": 23,
+  "compileSdkVersion": 23,
+  "buildToolsVersion": "23.0.3",
+
+  "versionCode": 100004,
+  "versionName": "1.0.0.06",
+  "applicationId": "com.pandora.uploadplugin",
+  "appName": "PandoraAndroid",
+
+  "upload": {
+
+    "apiToken":"fir api Token",
+    "apkPath":"/upload/APK/android-build/local_job/0/outputs/apk/release/app-release-unsigned.apk",
+    "senderName":"sender's name",
+    "senderEmail":"sender's email",
+    "senderEmailPwd":"pwd",
+    "subject":"Android XX App 测试包有更新",
+    "appFirImDownloadUrl":"app download url",
+    "apiUrl":"http://122.224.124.250:10011/rent/api/测试服务地址",
+    "receiverEmails":[
+      "dbs@33.cn",
+      "dbs@163.com"
+    ],
+    "jenkinsServerIP":"192.168.33.132",
+    "jenkinsFileBackDir":"android-build"
+  }
+}
